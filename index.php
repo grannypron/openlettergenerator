@@ -7,6 +7,7 @@
     #yourLetter {
       width: 50;
       height: 300px;
+      margin-top: 200px;
     }
   </style>
   <body>
@@ -59,5 +60,7 @@ FB.getLoginStatus(function(response) {
   <h3>Write a letter to the evil despotic entity or *funny opposite here* of your choice!</h3>
   Recipient of your ire/admiration: <input type="text" size="30" id="recipient" name="recipient" /><br/>
   Pro / Con: <input type="radio" id="procon" name="procon" value="pro"/> Pro    <input type="radio" id="procon" name="procon" value="con"/> Con<br/>
+  
+  <textarea name="yourLetter" id="yourLetter" />
   </body>
 </html>
