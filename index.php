@@ -1,7 +1,16 @@
 <html>
   <style>
+  
+    @font-face {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Product Sans"), local("ProductSans-Regular"), url("https://fonts.gstatic.com/s/productsans/v7/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2") format("woff2");
+      unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+  
     body {
-      font-family: Freight Sans, 'helvetica neue',helvetica,arial,'lucida grande',sans-serif;
+      font-family: Product Sans, 'helvetica neue',helvetica,arial,'lucida grande',sans-serif;
     }
     
     #yourLetter {
