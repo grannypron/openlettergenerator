@@ -71,6 +71,7 @@ FB.getLoginStatus(function(response) {
 
   <h1 id="fb-welcome"></h1>
   <h3>Write a letter to the evil despotic entity or *funny opposite here* of your choice!</h3>
+  <div style="float: right"><img src="foundtain_pen_and_paper.png" /></div>
   Recipient of your ire/admiration: <input type="text" size="30" id="recipient" name="recipient" /><br/>
   Pro / Con: <input type="radio" id="procon" name="procon" value="pro"/> Pro    <input type="radio" id="procon" name="procon" value="con"/> Con<br/>
   Greeting (todo): <select id="greeting" name="greeting"><option>Extreme</option><option>Cordial</option></select><br/>
