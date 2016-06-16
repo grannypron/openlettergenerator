@@ -70,16 +70,18 @@ FB.getLoginStatus(function(response) {
 </script>
 
   <h1 id="fb-welcome"></h1>
-  <h3>Write a letter to the evil despotic entity or *funny opposite here* of your choice!</h3>
-  <div style="float: right"><img src="foundtain_pen_and_paper.png" /></div>
-  Recipient of your ire/admiration: <input type="text" size="30" id="recipient" name="recipient" /><br/>
-  Pro / Con: <input type="radio" id="procon" name="procon" value="pro"/> Pro    <input type="radio" id="procon" name="procon" value="con"/> Con<br/>
-  Greeting (todo): <select id="greeting" name="greeting"><option>Extreme</option><option>Cordial</option></select><br/>
-  Supporting facts: <br/>
-  <input class="supportingFact" type="checkbox" value="Bees are dying at an alarming rate">Bees are dying<br/>
-  <input class="supportingFact" type="checkbox" value="Per capita, the United states is the leader in ferret-on-ferret voilence rates">Ferrer-on-ferret<br/>
-  <input class="supportingFact" type="checkbox" value="The president of the United States of America, foremost leader of the free world, has not formally recognized any brand of laxatives as being his favorite">Presidential flow<br/>
-  <input class="supportingFact" type="checkbox" value="Unfettered douchebaggery is the leading cause of birth defects in the third world">Those poor children<br/>
+ <div style="float: left">
+    <h3>Write a letter to the evil despotic entity or *funny opposite here* of your choice!</h3>
+    Recipient of your ire/admiration: <input type="text" size="30" id="recipient" name="recipient" /><br/>
+    Pro / Con: <input type="radio" id="procon" name="procon" value="pro"/> Pro    <input type="radio" id="procon" name="procon" value="con"/> Con<br/>
+    Greeting (todo): <select id="greeting" name="greeting"><option>Extreme</option><option>Cordial</option></select><br/>
+    Supporting facts: <br/>
+    <input class="supportingFact" type="checkbox" value="Bees are dying at an alarming rate">Bees are dying<br/>
+    <input class="supportingFact" type="checkbox" value="Per capita, the United states is the leader in ferret-on-ferret voilence rates">Ferrer-on-ferret<br/>
+    <input class="supportingFact" type="checkbox" value="The president of the United States of America, foremost leader of the free world, has not formally recognized any brand of laxatives as being his favorite">Presidential flow<br/>
+    <input class="supportingFact" type="checkbox" value="Unfettered douchebaggery is the leading cause of birth defects in the third world">Those poor children<br/>
+  </div>
+  <div style="float: left"><img src="foundtain_pen_and_paper.png" /></div>
   
   <textarea name="yourLetter" id="yourLetter"></textarea>
   </body>
